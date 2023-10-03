@@ -72,12 +72,12 @@ myProfile.placesLived.forEach((location) => {
     console.log(` ${location.place}`);
     console.log(` ${location.length}`);
 
-let dd = document.createElement('dd')
-dd.textContent = location.place;
 let dt = document.createElement('dt')
-dt.textContent = location.length;
-document.querySelector('#places-lived').appendChild(dd);
+dt.textContent = location.place;
+let dd = document.createElement('dd')
+dd.textContent = location.length;
 document.querySelector('#places-lived').appendChild(dt);
+document.querySelector('#places-lived').appendChild(dd);
 
 });
 
