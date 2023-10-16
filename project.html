@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/projectstyles.css">
+    <title>Address Book</title>
+</head>
+
+<body>
+    <h1>Address Book</h1>
+
+    <input type="text" id="searchFirstName" placeholder="Filter by First Name">
+    <input type="text" id="searchLastName" placeholder="Filter by Last Name">
+    <input type="text" id="searchZip" placeholder="Filter by Zip Code">
+    <input type="text" id="searchState" placeholder="Filter by State">
+    <input type="checkbox" id="filterActive"> Physically Active
+
+    <button id="filterButton">Filter</button>   
+    <button id="countByStateButton">Count by State</button>
+    <button id="clearButton">Clear</button>
+
+
+    <div id="resultCount">Results: 0</div>
+    <div id="stateCounts"></div>
+
+    <ul id="contactList">
+        <!-- Contact list shows up here-->
+    </ul>
+
+    <script src="scripts/project.js"></script>
+</body>
+
+</html>

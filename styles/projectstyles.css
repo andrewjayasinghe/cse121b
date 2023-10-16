@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1%;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.search-container {
+    text-align: center;
+    margin: 10px;
+}
+
+/* Style for the search input */
+#searchFirstName {
+    width: 250px; /* Adjust the width as needed */
+    padding: 5px;
+    font-size: 16px; /* Adjust the font size as needed */
+}
+#searchLastName {
+    width: 250px; /* Adjust the width as needed */
+    padding: 5px;
+    font-size: 16px; /* Adjust the font size as needed */
+}
+#searchZip {
+    width: 250px; /* Adjust the width as needed */
+    padding: 5px;
+    font-size: 16px; /* Adjust the font size as needed */
+}
+#searchState {
+    width: 250px; /* Adjust the width as needed */
+    padding: 5px;
+    font-size: 16px; /* Adjust the font size as needed */
+}
+/* Style for the search button */
+#filterButton {
+    padding: 5px 10px; /* Adjust the padding as needed */
+    font-size: 14px; /* Adjust the font size as needed */
+    background-color: #0074d9; /* Change the background color as needed */
+    color: #fff; /* Change the text color as needed */
+    border: none;
+    cursor: pointer;
+}
+
+/* Add hover effect to the search button */
+#filterButton:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+}
+
+#countByStateButton{
+    padding: 5px 10px; /* Adjust the padding as needed */
+    font-size: 14px; /* Adjust the font size as needed */
+    background-color: #0074d9; /* Change the background color as needed */
+    color: #fff; /* Change the text color as needed */
+    border: none;
+    cursor: pointer;
+}
+
+#clearButton{
+    padding: 5px 10px; /* Adjust the padding as needed */
+    font-size: 14px; /* Adjust the font size as needed */
+    background-color: #0074d9; /* Change the background color as needed */
+    color: #fff; /* Change the text color as needed */
+    border: none;
+    cursor: pointer;
+}
+
+
+#resultCount{
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
